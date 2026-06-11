@@ -1,0 +1,18 @@
+# Ignore Terraform local files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+
+# Ignore sensitive or local settings
+terraform.tfvars
+*.tfvars
+
+# Editor and Python artifacts
+.vscode/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
